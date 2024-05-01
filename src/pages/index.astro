@@ -1,0 +1,48 @@
+---
+import Layout from '../layouts/Layout.astro';
+---
+
+<Layout title="Welcome to my personal site">
+	<div class="py-10">
+		<section>
+			<h1 class="text-xl font-bold">Hello World 👋</h1>
+			<p class="pt-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis, ipsum. Illum optio dicta eius, quaerat possimus excepturi fugiat fugit aliquam iste, vitae placeat sunt ex praesentium voluptatem asperiores, deleniti velit.</p>
+			<div class="flex items-center">
+				<span>
+					Find me on:
+				</span>
+				<a href="#">
+					<img src="logo.png" class="w-[60px]" alt="">
+				</a>
+			</div>
+		</section>
+		<section class="mt-16">
+			<h2 class="title mb-4 text-xl">Experience</h2>
+			<ul class="space-y-4">
+				<li class="flex flex-col gap-x-2 sm:flex-row">
+					<time class="min-w-[120px] text-gray-600 dark:text-gray-400" datetime="2024-04-08T00:00:00.000Z"> 8 April 2024</time>
+					<a href="#" class="underline text-gray-800 dark:text-gray-400">
+						Lorem ipsum dolor sit amet.
+					</a>
+				</li>
+			</ul>
+		</section>
+		<section class="mt-16">
+			<h2 class="title mb-4 text-xl">Technologies</h2>
+			<dl class="space-y-4">
+				<div class="flex flex-col gap-2 md:flex-row">
+				<dt>
+					<span class="flex"><a href="#" class="underline">Astro</a>:</span>
+					<dd>
+						Build websites faster
+					</dd>
+				</dt>
+				</div>
+			</dl>
+		</section>
+	</div>
+</Layout>
+
+<style>
+	
+</style>
