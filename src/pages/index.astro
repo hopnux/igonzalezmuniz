@@ -6,13 +6,14 @@ import Layout from '../layouts/Layout.astro';
 	<div class="py-10">
 		<section>
 			<h1 class="text-xl font-bold">Hello, World! 👋</h1>
-			<p class="pt-4">I'm a Full Stack Web Developer Jr. with an academic background in the area of language, currently on my way back into the IT industry. </p>
-			<p class="pt-2">I consider myself a lifelong learner with a keen eye on detail as well as an avid technical reader. I really enjoy diving into open source technologies & breaking down complexity into simple steps.</p>
+			<p class="pt-4">I'm a Full Stack Web Developer with an academic background in the area of language, currently on my way back into the IT industry. </p>
+			<p class="pt-2">To strengthen my always active self-taught training on the latest technologies, I recently completed a solid Coding Bootcamp, an extremely practical & intensive 3-month, full-time educational program, which encompasses over 600 hours of learning covering Node.js, Express, React.js, MySQL, MongoDB, and Git.</p>
+			<p class="pt-2">I face challenges through an analytical & methodical approach with a keen eye on detail. I really enjoy diving into open source technologies & breaking down complexity into simple steps.</p>
 			<div class="flex items-center pt-2">
 				<span class="me-2">
 					Find me on:
 				</span>
-				<a href="https://github.com/hopnux" target="_blank">
+				<a href="http://www.linkedin.com/in/migonzalezmuniz" target="_blank">
 					<svg class="w-7 h-7 text-gray-800 dark:text-white me-2" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" viewBox="0 0 24 24">
 						<path fill-rule="evenodd" d="M12.51 8.796v1.697a3.738 3.738 0 0 1 3.288-1.684c3.455 0 4.202 2.16 4.202 4.97V19.5h-3.2v-5.072c0-1.21-.244-2.766-2.128-2.766-1.827 0-2.139 1.317-2.139 2.676V19.5h-3.19V8.796h3.168ZM7.2 6.106a1.61 1.61 0 0 1-.988 1.483 1.595 1.595 0 0 1-1.743-.348A1.607 1.607 0 0 1 5.6 4.5a1.601 1.601 0 0 1 1.6 1.606Z" clip-rule="evenodd"/>
 						<path d="M7.2 8.809H4V19.5h3.2V8.809Z"/>
@@ -25,23 +26,49 @@ import Layout from '../layouts/Layout.astro';
 				</a>
 			</div>
 		</section>
+
+		<section class="mt-16">
+			<h2 class="title mb-4 text-xl">Education</h2>
+			<ul class="space-y-4">
+				<li class="flex flex-col gap-x-5 sm:flex-row">
+					<time class="min-w-[25%] text-gray-600 dark:text-gray-400"> Jan 2024 - Apr 2024</time>
+					<span class="text-gray-800 dark:text-gray-400">
+						<span class="underline">Coding Bootcamp/Full Stack Web Development</span> | Hack Academy
+					</span>
+				</li>
+				<li class="flex flex-col gap-x-5 sm:flex-row">
+					<time class="min-w-[25%] text-gray-600 dark:text-gray-400"> Sep/Oct 2023</time>
+					<span class="text-gray-800 dark:text-gray-400">
+						<span class="underline">Web Development Introductory Course</span> | Hack Academy
+					</span>
+				</li>
+				<li class="flex flex-col gap-x-5 sm:flex-row">
+					<time class="min-w-[25%] text-gray-600 dark:text-gray-400"> 2006</time>
+					<span class="text-gray-800 dark:text-gray-400">
+						<span class="underline">Degree in Linguistics</span> | Universidad de la República
+					</span>
+				</li>
+			</ul>
+		</section>
+
+
 		<section class="mt-16">
 			<h2 class="title mb-4 text-xl">Experience</h2>
 			<ul class="space-y-4">
-				<li class="flex flex-col gap-x-7 sm:flex-row">
-					<time class="min-w-[120px] text-gray-600 dark:text-gray-400"> Mar 2020 - Jan 2024</time>
+				<li class="flex flex-col gap-x-5 sm:flex-row">
+					<time class="min-w-[25%] text-gray-600 dark:text-gray-400"> Mar 2020 - Jan 2024</time>
 					<span class="text-gray-800 dark:text-gray-400">
-						<span class="underline">Minister's Secretary</span> | Ministry of Labour
+						<span class="underline">Minister's Secretary</span> | Ministry of Labour/Social Security
 					</span>
 				</li>
-				<li class="flex flex-col gap-x-7 sm:flex-row">
-					<time class="min-w-[120px] text-gray-600 dark:text-gray-400"> Feb 2015 - Feb 2020</time>
+				<li class="flex flex-col gap-x-5 sm:flex-row">
+					<time class="min-w-[25%] text-gray-600 dark:text-gray-400"> Feb 2015 - Feb 2020</time>
 					<span class="text-gray-800 dark:text-gray-400">
 						<span class="underline">Legislator's Secretary</span> | Legislative Power
 					</span>
 				</li>
-				<li class="flex flex-col gap-x-7 sm:flex-row">
-					<time class="min-w-[120px] text-gray-600 dark:text-gray-400"> Jul 2012 - Feb 2015</time>
+				<li class="flex flex-col gap-x-5 sm:flex-row">
+					<time class="min-w-[25%] text-gray-600 dark:text-gray-400"> Jul 2012 - Feb 2015</time>
 					<span class="text-gray-800 dark:text-gray-400">
 						<span class="underline">Software Developer</span> | Cualit
 					</span>
@@ -50,40 +77,41 @@ import Layout from '../layouts/Layout.astro';
 		</section>
 		<section class="mt-16">
 			<h2 class="title mb-4 text-xl">Technologies</h2>
-			<dl class="space-y-4">
-				<div class="flex flex-col gap-2 md:flex-row">
-						<span class="underline">Node + Express</span>
-				</div>
+				<div class="flex flex-wrap gap-y-10 justify-center">
+					<div class="flex flex-col items-center gap-3 w-full sm:w-1/3">
+						<span>Node | Express</span>
+						<div class="flex gap-4">
+							<img src="tech-logos/node.svg" alt="" width="40px" height="40px">
+							<img src="tech-logos/express.svg" alt="" width="40px" height="40px">
+						</div>
+					</div>
 
-				<div class="flex flex-col gap-2 md:flex-row">
-					<span class="underline">React + Redux</span>
-				</div>
+					<div class="flex flex-col items-center gap-3 w-full sm:w-1/3">
+						<span>Sequelize | MySQL</span>
+						<div class="flex gap-4">
+							<img src="tech-logos/sequelize.svg" alt="" width="40px" height="40px">
+							<img src="tech-logos/mysql.svg" alt="" width="40px" height="40px">
+						</div>
+					</div>
 
-				<div class="flex flex-col gap-2 md:flex-row">
-					<span class="underline">Sequelize ORM (MySQL, PostgreSQL)</span>
-				</div>
-
-				<div class="flex flex-col gap-2 md:flex-row">
-					<span class="underline">Mongoose ODM (MongoDB)</span>
+					<div class="flex flex-col items-center gap-3 w-full sm:w-1/3">
+						<span>Mongoose | MongoDB</span>
+						<div class="flex gap-4">
+							<img src="tech-logos/mongoose.svg" alt="" width="40px" height="40px">
+							<img src="tech-logos/mongodb.svg" alt="" width="40px" height="40px">
+						</div>
+					</div>
+				
+				
+					<div class="flex flex-col items-center gap-3 w-full sm:w-1/3">
+						<span>React | Redux</span>
+						<div class="flex gap-4">
+							<img src="tech-logos/react.svg" alt="" width="40px" height="40px">
+							<img src="tech-logos/redux.svg" alt="" width="35px" height="35px">
+						</div>
+					</div>
 				</div>
 				
-				<div class="flex flex-col gap-2 md:flex-row">
-				<dt>
-					<span class="flex"><a href="#" class="underline">Astro</a>:</span>
-					<dd>
-						Build websites faster.
-					</dd>
-				</dt>
-				</div>
-				<div class="flex flex-col gap-2 md:flex-row">
-				<dt>
-					<span class="flex"><a href="#" class="underline">Tailwind CSS</a>:</span>
-					<dd>
-						Rapidly build modern websites without ever leaving your HTML.
-					</dd>
-				</dt>
-				</div>
-			</dl>
 		</section>
 	</div>
 </Layout>
